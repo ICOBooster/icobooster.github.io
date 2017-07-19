@@ -3,10 +3,12 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-top: 3rem;
-  padding-bottom: 0rem;
   color: #5a5a5a;
   font-family: 'Source Serif Pro', sans-serif;
+}
+
+.navbar {
+  background-color: #203147;
 }
 
 .jumbotron {
@@ -18,6 +20,11 @@ body {
   margin: 5rem 0;
 }
 
+.btn-primary {
+  background-color: #203147;
+  border-color: #203147;
+}
+
 .introduction {
   font-size: 1.5em;
 }
@@ -25,6 +32,11 @@ body {
 div.section {
   margin-top: 5rem;
   margin-bottom: 5rem;
+}
+
+.logo {
+  height: 5rem;
+  min-height: 3.5rem;
 }
 
 .featurette {
@@ -42,11 +54,19 @@ div.section {
   letter-spacing: -.05rem;
 }
 
-/*
-p.copyright {
-  margin: 
+footer {
+  background-color: #203147;
+  min-height: 2rem;
+  width: 100%;
 }
-*/
+
+p.copyright {
+  color: white;
+  line-height: 2rem;
+  min-height: 2rem;
+  padding: 0.5rem 0;
+  margin: 0;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */

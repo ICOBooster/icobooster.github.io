@@ -20,18 +20,21 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+    <nav class="navbar navbar-toggleable-md navbar-inverse">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#">ICOBooster</a>
+      <div class="container">
+      <a class="navbar-brand col-md-6" href="./index.html">
+        <img src="./img/logo.png" alt="ICOBooster" class="logo">
+      </a>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             <a class="nav-link" href="./index.html">Home</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Who We Are<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="./company.html">Who We Are<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./business.html">What We Do</a>
@@ -43,6 +46,7 @@
             <a class="nav-link" href="./contact.html">Contact Us</a>
           </li>
         </ul>
+      </div>
       </div>
     </nav>
 
@@ -69,7 +73,13 @@
 
     <!-- FOOTER -->
     <footer>
-      <p class="copyright">© 2017 ICOBooster</p> 
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-6">
+            <p class="copyright">© 2017, ICOBooster, All rights reserved</p>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <!-- Bootstrap core JavaScript

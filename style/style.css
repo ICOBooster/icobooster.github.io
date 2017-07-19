@@ -6,15 +6,25 @@ body {
   padding-top: 3rem;
   padding-bottom: 0rem;
   color: #5a5a5a;
+  font-family: 'Source Serif Pro', sans-serif;
 }
 
 .jumbotron {
   background-color: white;
 }
 
+.jumbotron.career {
+  background-color: lightgray;
+  margin: 5rem 0;
+}
+
 .introduction {
   font-size: 1.5em;
-  font-family: 'Source Serif Pro', sans-serif;
+}
+
+div.section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .featurette {
@@ -32,9 +42,11 @@ body {
   letter-spacing: -.05rem;
 }
 
+/*
 p.copyright {
   margin: 
 }
+*/
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */

@@ -7,12 +7,25 @@ body {
   font-family: 'Source Serif Pro', sans-serif;
 }
 
-.navbar {
-  background-color: #203147;
+.navbar{
+    background-color: rgba(255,255,255,0.0);
+    transition: background-color .5s ease 0s;
+  /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+  /*  height: 60px;
+    border-bottom: 0px;
+    */
+}
+.nav-link {
+  color: white;
 }
 
 .jumbotron {
-  background-color: white;
+  /*background-color: white;*/
+  background: url(../img/bg1.jpg) no-repeat center center;
+  background-size: 100% 100%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  height: calc(100%);
 }
 
 .jumbotron.career {
@@ -27,6 +40,7 @@ body {
 
 .introduction {
   font-size: 1.5em;
+  color: white;
 }
 
 div.section {
@@ -35,23 +49,18 @@ div.section {
 }
 
 .logo {
-  height: 5rem;
-  min-height: 3.5rem;
+  height: 4rem;
+  min-height: 2rem;
 }
 
-.featurette {
-  margin-bottom: 5rem;
+.features {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
-.featurette-divider {
-  margin-bottom: 5rem; /* Space out the Bootstrap <hr> more */
-}
-
-/* Thin out the marketing headings */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -.05rem;
+.feature {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 footer {

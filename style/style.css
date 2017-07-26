@@ -1,6 +1,7 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
+@import url(font.css);
 
 body {
   color: #5a5a5a;
@@ -39,13 +40,21 @@ body {
   margin: 5rem 0;
 }
 
-.btn-primary {/\.
+.btn-primary {
   background-color: #203147;
   border-color: #203147;
 }
 
-.introduction {
+.introduction-container {
+  text-align: center;
+}
+
+p.introduction {
   font-size: 1.5em;
+  color: white;
+}
+
+h1.introduction {
   color: white;
 }
 
@@ -84,6 +93,18 @@ p.copyright {
 }
 
 hr {
+  color: white;
+}
+
+.mail-link {
+  color: white;
+}
+
+.mail-link:hover {
+  color: white;
+}
+
+.mail-link:after {
   color: white;
 }
 

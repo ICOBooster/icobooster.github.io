@@ -11,9 +11,13 @@ body {
 .navbar{
   background-color: rgba(255,255,255,0.0);
   transition: background-color .5s ease 0s;
+  font-weight: bold;
 }
 .navbar:hover {
   background-color: rgba(255,255,255,0.25);
+}
+.nav-item {
+  padding:0 0.5rem;
 }
 .nav-item.active a {
   color: grey;
@@ -325,37 +329,37 @@ p.social a.email {
   z-index: 3;
 }
 #company-page1 {
-  background: url('../img/bg2.jpg') center center no-repeat;
+  background: url('../img/company1.jpg') center center no-repeat;
   background-size: cover;
 }
 
 #company-page2 {
-  background: url('../img/bg3.jpg') center center no-repeat;
+  background: url('../img/company2.jpg') center center no-repeat;
   background-size: cover;
 }
 
 #business-page1 {
-  background: url('../img/bg4.jpg') center center no-repeat;
+  background: url('../img/business1.jpg') center center no-repeat;
   background-size: cover;
 }
 
 #business-page2 {
-  background: url('../img/bg5.jpg') center center no-repeat;
+  background: url('../img/business2.jpg') center center no-repeat;
   background-size: cover;
 }
 
 #business-page3 {
-  background: url('../img/bg7.jpg') center center no-repeat;
+  background: url('../img/business3.jpg') center center no-repeat;
   background-size: cover;
 }
 
 #career-page1 {
-  background: url('../img/bg9.jpg') center center no-repeat;
+  background: url('../img/career.jpg') center center no-repeat;
   background-size: cover;
 }
 
 #contact-page1 {
-  background: url('../img/bg8.jpg') center center no-repeat;
+  background: url('../img/contact.jpg') center center no-repeat;
   background-size: cover;
 }
 
@@ -371,4 +375,34 @@ body.disabled-onepage-scroll .onepage-wrapper section {
 .joinus a {
   color: white;
   text-decoration: underline;
+}
+
+.business-list {
+  padding-bottom: 0.5rem;
+}
+
+.contact-email {
+  padding-left: 1.3rem;
+  list-style-type: none;
+}
+
+.contact-email:before {
+  content: "\f003"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3rem; 
+  width: 1.3em; 
+}
+
+.contact-address {
+  padding-left: 1.3rem;
+  list-style-type: none;
+}
+
+.contact-address:before {
+  content: "\f041"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3rem; 
+  width: 1.3em; 
 }

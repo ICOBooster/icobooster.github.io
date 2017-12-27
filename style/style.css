@@ -405,3 +405,15 @@ body.disabled-onepage-scroll .onepage-wrapper section {
   align-items:center;/*指定垂直居中*/
   margin-top: 1rem;
 }
+
+#feature-container {
+  background-color: white;
+}
+
+.white-background {
+  background-color: white;
+}
+
+.black-background {
+  background-color: black;
+}

@@ -395,10 +395,6 @@ body.disabled-onepage-scroll .onepage-wrapper section {
   width: 100%;
 }
 
-.crypto-fund-icon-invert {
-  filter: invert(100%);
-}
-
 .crypto-fund-container {
   display:flex;/*Flex布局*/
   display: -webkit-flex; /* Safari */

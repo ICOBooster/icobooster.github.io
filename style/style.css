@@ -392,6 +392,16 @@ body.disabled-onepage-scroll .onepage-wrapper section {
 }
 
 .crypto-fund-icon {
-  width: 10rem;
-  height: 10rem;
+  width: 100%;
+}
+
+.crypto-fund-icon-invert {
+  filter: invert(100%);
+}
+
+.crypto-fund-container {
+  display:flex;/*Flex布局*/
+  display: -webkit-flex; /* Safari */
+  align-items:center;/*指定垂直居中*/
+  margin-top: 1rem;
 }

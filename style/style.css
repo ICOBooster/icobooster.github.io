@@ -389,3 +389,8 @@ body.disabled-onepage-scroll .onepage-wrapper section {
   margin-left: -2.4rem; 
   width: 1.3em; 
 }
+
+.crypto-fund-icon {
+  width: 10rem;
+  height: 10rem;
+}

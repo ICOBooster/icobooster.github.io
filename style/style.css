@@ -5,7 +5,7 @@
 
 body {
   color: #5a5a5a;
-  font-family: 'Source Serif Pro';
+  font-family: 'Source Sans Pro';
 }
 
 .navbar{
@@ -13,6 +13,7 @@ body {
   /*background-color: rgba(255,255,255,0.0);*/
   /*transition: background-color .5s ease 0s;*/
   font-weight: bold;
+  font-family: 'Source Serif Pro'
 }
 /*
 .navbar:hover {
@@ -331,13 +332,8 @@ p.social a.email {
   border-radius: 20px;
   z-index: 3;
 }
-#company-page1 {
+#company-page {
   background: url('../img/company.png') center center no-repeat;
-  background-size: cover;
-}
-
-#company-page2 {
-  background: url('../img/company2.jpg') center center no-repeat;
   background-size: cover;
 }
 

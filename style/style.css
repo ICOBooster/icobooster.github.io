@@ -337,18 +337,8 @@ p.social a.email {
   background-size: cover;
 }
 
-#business-page1 {
+#business-page {
   background: url('../img/business.png') center center no-repeat;
-  background-size: cover;
-}
-
-#business-page2 {
-  background: url('../img/business2.jpg') center center no-repeat;
-  background-size: cover;
-}
-
-#business-page3 {
-  background: url('../img/business3.jpg') center center no-repeat;
   background-size: cover;
 }
 

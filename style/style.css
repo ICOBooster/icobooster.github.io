@@ -9,7 +9,7 @@ body {
 }
 
 .navbar{
-  background-color: rgba(32, 49, 71, 1);
+  /* background-color: rgba(32, 49, 71, 1); */
   /*background-color: rgba(255,255,255,0.0);*/
   /*transition: background-color .5s ease 0s;*/
   font-weight: bold;
@@ -35,7 +35,7 @@ body {
 
 .jumbotron {
   /*background-color: white;*/
-  background: url(../img/bg1.jpg) no-repeat center center;
+  background: url(../img/home.png) no-repeat center center;
   background-size: 100% 100%;
   padding-top: 20%;
   padding-bottom: 20%;
@@ -332,7 +332,7 @@ p.social a.email {
   z-index: 3;
 }
 #company-page1 {
-  background: url('../img/company1.jpg') center center no-repeat;
+  background: url('../img/company.png') center center no-repeat;
   background-size: cover;
 }
 
@@ -342,7 +342,7 @@ p.social a.email {
 }
 
 #business-page1 {
-  background: url('../img/business1.jpg') center center no-repeat;
+  background: url('../img/business.png') center center no-repeat;
   background-size: cover;
 }
 
@@ -357,12 +357,12 @@ p.social a.email {
 }
 
 #career-page1 {
-  background: url('../img/career.jpg') center center no-repeat;
+  background: url('../img/career.png') center center no-repeat;
   background-size: cover;
 }
 
 #contact-page1 {
-  background: url('../img/contact.jpg') center center no-repeat;
+  background: url('../img/contact.png') center center no-repeat;
   background-size: cover;
 }
 
